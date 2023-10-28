@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;900&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: black
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 605px;
+    background-image: url(../images/banner.png), linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 1));
+    box-shadow: inset 0 605px  20px rgba(0, 0, 0, 0.6)
+}
+
+.banner_container{
+    width: 100%;
+    max-width: 465px;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.banner_container h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-image: linear-gradient( rgb(51, 168, 219), rgba(20, 114, 183, 1));
+    background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+.banner_container p{
+    font-size: 1.1rem;
+    text-align: center;
+    color:white;
+    padding: 0  0 30px 0;
+
+}
+
+.banner_container a{
+    padding: 10px 55px;
+    text-transform: uppercase;
+    border: 1px solid  #1472b7;
+    background-image: linear-gradient( rgb(51, 168, 219), rgba(20, 114, 183, 1));
+    background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+
+}
+
+.banner_container a:hover{
+    text-decoration: none  ;
+    color: white;
+    transition: 1s;
+}
+
+/* FIM DA ESTILIZAÇÃO GERAL E O DO BANNER */
+
+.modulo_curso{ 
+    width: 100%;
+    height: auto;
+    background-color: #000;;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.modulo_curso_container{
+    max-width: 723px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modulo_curso_container h2{
+    color:#33A8DB;
+}
+
+.modulo_curso_container p, 
+.modulo_curso_container strong{
+    color: white;
+    
+    font-size:.92rem;
+}
+
+
+.modulo_curso_container strong{
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    margin: 0 auto;
+    margin-top:20px;
+    padding: 16px 0;
+    width: 75%;
+    border-radius: 57px;
+   border: 1px solid #33A8DB;
+}
+.span{
+    color: #1472b7;
+}
+
+/* Fim da segunda esttilização dos modulos */
+
+.bg_transition{
+    width: 100%;
+    height: 363px;
+    background-image: url(../images/woman-code.png), linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 1));
+    box-shadow: inset 0 605px  20px rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -20px;
+
+}
+
+.bg_transition div{
+    position: relative;
+    top: 111px;
+    left: 198px;
+
+}
+ 
+
+
+.bg_transition div h1{
+    width: 244px;
+    height: 141px;
+    color: #fff;
+}
+ 
+
+/* Fim Terceiro Modulo */
+
+.convite_area{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.convite_area img{
+    width: 659px;
+    height: 429px;
+}
+.convite_area h2{
+    width: 746px;
+    line-height: 38px;
+    font-size: 32px;
+    color: #1472b7;
+    font-weight: 500;
+    text-align: center;
+}
+
+.convite_area p{
+    width: 792px;
+    color: #fff;
+
+    margin-top: 30px;
+    margin-bottom: 76px;
+    font-weight: 400px;
+    line-height: 19px;
+    text-align: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background-image: linear-gradient(180deg, #000 , rgba(20, 114, 183, .2));
+}
+#footer img{
+    width: 310px;
+    height: 44px;
+}
+#footer span{
+    margin-top: 5px;
+    color: #fff;
+}
+#footer span > a{
+    color: #1472b7;
+}
